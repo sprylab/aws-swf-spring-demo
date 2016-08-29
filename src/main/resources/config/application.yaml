@@ -1,0 +1,10 @@
+aws:
+  accessKey: <your-AWS-access-key-here>
+  secretKey: <your-AWS-secret-key-here>
+  region: eu-central-1
+  swf:
+    domain: greeting-sample
+    workflowTaskList: WorkflowTaskList
+    activityTaskList: ActivityTaskList
+    maxWorkflowThreads: 1
+    maxActivityThreads: 5
